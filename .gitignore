@@ -12,3 +12,8 @@
 *.bak
 .DS_Store
 Thumbs.db
+
+#DATASETS
+*.h5
+
+docs/
