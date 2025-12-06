@@ -17,3 +17,7 @@ Thumbs.db
 *.h5
 
 docs/
+
+# Simulink build artefacts
+slprj/
+**/slprj/
