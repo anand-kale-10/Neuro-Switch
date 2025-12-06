@@ -24,7 +24,7 @@ f_ac   = 50;                % Hz (output fundamental)
 w_ac   = 2*pi*f_ac;
 
 % Envelope lowpass (A_meas)
-f_env  = 10;                % Hz cutoff (envelope filter)
+f_env  = 16;                % Hz cutoff (envelope filter)
 tau_env = 1/(2*pi*f_env);   % s
 % In Simulink Transfer Fcn: num = 1, den = [tau_env 1]
 
